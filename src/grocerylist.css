@@ -1,0 +1,42 @@
+.ind_product {
+    display: flex;
+    width: 30%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 0.6% 0.6%;
+    border-radius:  20px;
+    justify-content: space-between;
+    background-color :rgb(191, 247, 255);
+    border: 1px solid rgb(53, 231, 255);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    height : 45px;
+}
+body {
+    background-color :rgb(8, 226, 255)
+}
+.ind_product>span:first-child {
+    width : 80%;
+    margin-left : 1%;
+    font-size : 21px;
+    padding-left : 4%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.ind_product>span:first-child:hover {
+    border-radius:  15px;
+    background-image:  linear-gradient( rgb(196, 251, 255), white);
+}
+.ind_product>button {
+    border: none;
+    font-size: 18px;
+    border:1px solid rgb(112, 238, 255);
+    padding: 10px;
+    border-radius: 20px
+}
+.ind_product>button:hover {
+    color: rgb(233, 4, 4);
+    background-image : linear-gradient(rgb(0, 204, 255),rgb(253, 153, 150))
+}
+.ind_product:first-child {
+    margin-top: 3%;
+}

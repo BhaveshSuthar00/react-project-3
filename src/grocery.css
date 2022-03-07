@@ -1,0 +1,17 @@
+.grocery_div_main {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border: 1px solid rgb(255, 0, 157);
+    padding: 1%;
+    color:  white;
+    background-color: rgb(188, 249, 255);
+    border-radius: 20px;
+    margin-top: 2%;
+}
+.grocery_div_main>.grocery_div_main_1{
+    color: black;
+    font-size: 23px;
+    font-weight: bolder;
+}
